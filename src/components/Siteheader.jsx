@@ -26,7 +26,7 @@ return (
               <Link className="nav-link js-scroll-trigger" to="/#careers">Career Sectors</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link js-scroll-trigger" to="/#advice">Advice and News</Link>
+              <Link className="nav-link js-scroll-trigger" to="/#advice">Advice & News</Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link js-scroll-trigger" href="#team">Advice and News</Link>

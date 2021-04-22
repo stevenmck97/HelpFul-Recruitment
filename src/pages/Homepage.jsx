@@ -105,7 +105,7 @@ const Homepage = () => {
             </div>
             <CardDeck>
               <Card>
-                <Card.Img variant="top" src="https://matrixrecruitment.ie/wp-content/uploads/2020/01/businessman-working-on-a-project-picture-id1136948339-200x200.jpg" class="rounded-circle" style={{width:"200px"}}/>
+                <Card.Img variant="top" src="https://matrixrecruitment.ie/wp-content/uploads/2020/01/businessman-working-on-a-project-picture-id1136948339-200x200.jpg" class="rounded-circle" height= "140px" style={{width:"140px"}}/>
                 <Card.Body>
                   <Card.Title>Accountancy</Card.Title>
                 </Card.Body>
@@ -174,27 +174,37 @@ const Homepage = () => {
                 <h3 className="section-subheading text-muted">Below is a list of recent articles with advice and news related to Recruitment!</h3>
               </div>
             </div>
-            <CardDeck>
-            <Link to = "/advicepage1">
-              <Card>
+            <CardDeck >
+            
+              <Card style={{ width: '20rem', height: '18rem' }}>
+              <Link to = "CovidAdvicePage">
                 <Card.Img variant="top" src="https://matrixrecruitment.ie/wp-content/uploads/2021/03/Copy-of-Dream-job-survey-image-350x200.jpg" />
                 <Card.Body>
                   <Card.Title>COVID and Careers Insight 2021</Card.Title>
                 </Card.Body>
+                </Link>
               </Card>
-              </Link>
-              <Card>
+           
+           
+              <Card style={{ width: '20rem', height: '18rem' }}>
+              <Link to = "FinanceAdvicePage">
                 <Card.Img variant="top" src="https://matrixrecruitment.ie/wp-content/uploads/2021/02/iStock-468044048-350x200.jpg" />
                 <Card.Body>
                   <Card.Title>Financial Services 2021 Salary Guide</Card.Title>
                 </Card.Body>
+                </Link>
               </Card>
-              <Card>
+            
+            
+              <Card style={{width: '20rem', height: '18rem' }}>
+              <Link to = "ContractingAdvicePage">
                 <Card.Img variant="top" src="https://matrixrecruitment.ie/wp-content/uploads/2021/02/Contracting-Matrix-Recruitment-350x200.jpg" />
                 <Card.Body>
                   <Card.Title>Why Contracting Roles are Overtaking Permanent Positions</Card.Title>
                 </Card.Body>
+                </Link>
               </Card>
+             
             </CardDeck>
           </div>
         </section>
