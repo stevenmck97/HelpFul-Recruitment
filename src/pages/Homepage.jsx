@@ -6,9 +6,6 @@ import '../assets/css/bootstrap.min.css'
 import Card from 'react-bootstrap/Card'
 import CardDeck from 'react-bootstrap/CardDeck'
 import {Link} from 'react-router-dom'
-import Aboutpage from './Aboutpage'
-import Careerspage from './Careerspage'
-import Advicepage from './Advicepage'
 
 const Homepage = () => { 
     return(
@@ -52,9 +49,6 @@ const Homepage = () => {
             </div>
           </div>
         </header>
-        {/* <Aboutpage></Aboutpage> */}
-        {/* <Careerspage></Careerspage>
-        <Advicepage></Advicepage> */}
   
   
         <section className="page-section" id="about">
