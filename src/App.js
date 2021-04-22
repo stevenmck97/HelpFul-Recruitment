@@ -7,9 +7,9 @@ import './assets/css/bootstrap.min.css'
 import Card from 'react-bootstrap/Card'
 import CardDeck from 'react-bootstrap/CardDeck'
 import Homepage from './pages/Homepage'
-import Aboutpage from './pages/Aboutpage'
-import Advicepage from './pages/Advicepage'
-import Careerspage from './pages/Careerspage'
+// import Aboutpage from './pages/Aboutpage'
+// import Advicepage from './pages/Advicepage'
+// import Careerspage from './pages/Careerspage'
 import Advicepage1 from './pages/Advicepage1'
 import SiteHeader from './components/Siteheader'
 // import advicepage1 from './pages/advicepage1'
@@ -21,9 +21,9 @@ function App() {
     <SiteHeader/>
     <Switch> 
       <Route exact path = "/" component={Homepage}/>
-      <Route exact path = "/Advicepage" component={Advicepage}/> 
+      {/* <Route exact path = "/Advicepage" component={Advicepage}/> 
       <Route exact path = "/Careerspage" component={Careerspage}/> 
-      <Route exact path = "/Aboutpage" component={Aboutpage}/> 
+      <Route exact path = "/Aboutpage" component={Aboutpage}/>  */}
       <Route exact path = "/Advicepage1" component={Advicepage1}/>   
     </Switch>
     </BrowserRouter>

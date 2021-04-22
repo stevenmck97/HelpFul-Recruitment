@@ -20,19 +20,19 @@ return (
         <div className="collapse navbar-collapse" id="navbarResponsive">
           <ul className="navbar-nav text-uppercase ml-auto">
             <li className="nav-item">
-              <Link className="nav-link js-scroll-trigger" to="/#services">About</Link>
+              <Link className="nav-link js-scroll-trigger" to="/#about">About</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link js-scroll-trigger" href="#portfolio">Career Sectors</a>
+              <Link className="nav-link js-scroll-trigger" to="/#careers">Career Sectors</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link js-scroll-trigger" href="#about">Jobseekers</a>
+              <Link className="nav-link js-scroll-trigger" to="/#advice">Advice and News</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link js-scroll-trigger" href="#team">Advice and News</a>
+              <Link className="nav-link js-scroll-trigger" href="#team">Advice and News</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link js-scroll-trigger" href="#contact">Contact</a>
+              <Link className="nav-link js-scroll-trigger" href="#contact">Contact</Link>
             </li>
           </ul>
         </div>

@@ -53,11 +53,11 @@ const Homepage = () => {
           </div>
         </header>
         {/* <Aboutpage></Aboutpage> */}
-        <Careerspage></Careerspage>
-        <Advicepage></Advicepage>
+        {/* <Careerspage></Careerspage>
+        <Advicepage></Advicepage> */}
   
   
-        <section className="page-section" id="services">
+        <section className="page-section" id="about">
           <div className="container">
             <div className="row">
               <div className="col-lg-12 text-center">
@@ -95,7 +95,7 @@ const Homepage = () => {
         </section>
   
   
-        {/* <section className="bg-light page-section" id="portfolio">
+        <section className="bg-light page-section" id="careers">
           <div className="container">
             <div className="row">
               <div className="col-lg-12 text-center">
@@ -164,9 +164,9 @@ const Homepage = () => {
               </Card>
             </CardDeck>
           </div>
-        </section> */}
+        </section> 
   
-        {/* <section className="page-section" id="about">
+         <section className="page-section" id="advice">
           <div className="container">
             <div className="row">
               <div className="col-lg-12 text-center">
@@ -197,7 +197,7 @@ const Homepage = () => {
               </Card>
             </CardDeck>
           </div>
-        </section> */}
+        </section>
 
         
         {/* <section className="bg-light page-section" id="team">
