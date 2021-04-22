@@ -6,11 +6,14 @@ import '../assets/css/bootstrap.min.css'
 import Card from 'react-bootstrap/Card'
 import CardDeck from 'react-bootstrap/CardDeck'
 import {Link} from 'react-router-dom'
+import Aboutpage from './Aboutpage'
+import Careerspage from './Careerspage'
+import Advicepage from './Advicepage'
 
 const Homepage = () => { 
     return(
         <div className="App">
-        <nav className="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+        {/* <nav className="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
           <div className="container">
             <a className="navbar-brand js-scroll-trigger" href="#page-top">Helpful Recruitment</a>
             <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,7 +40,7 @@ const Homepage = () => {
               </ul>
             </div>
           </div>
-        </nav>
+        </nav> */}
   
   
         <header className="masthead">
@@ -49,6 +52,9 @@ const Homepage = () => {
             </div>
           </div>
         </header>
+        {/* <Aboutpage></Aboutpage> */}
+        <Careerspage></Careerspage>
+        <Advicepage></Advicepage>
   
   
         <section className="page-section" id="services">
@@ -89,7 +95,7 @@ const Homepage = () => {
         </section>
   
   
-        <section className="bg-light page-section" id="portfolio">
+        {/* <section className="bg-light page-section" id="portfolio">
           <div className="container">
             <div className="row">
               <div className="col-lg-12 text-center">
@@ -158,10 +164,9 @@ const Homepage = () => {
               </Card>
             </CardDeck>
           </div>
-        </section>
+        </section> */}
   
-  
-        <section className="page-section" id="about">
+        {/* <section className="page-section" id="about">
           <div className="container">
             <div className="row">
               <div className="col-lg-12 text-center">
@@ -175,7 +180,6 @@ const Homepage = () => {
                 <Card.Img variant="top" src="https://matrixrecruitment.ie/wp-content/uploads/2021/03/Copy-of-Dream-job-survey-image-350x200.jpg" />
                 <Card.Body>
                   <Card.Title>COVID and Careers Insight 2021</Card.Title>
-                  {/* <Card.Link href="/advicepage1"> Test</Card.Link> */}
                 </Card.Body>
               </Card>
               </Link>
@@ -193,9 +197,9 @@ const Homepage = () => {
               </Card>
             </CardDeck>
           </div>
-        </section>
-  
-  
+        </section> */}
+
+        
         {/* <section className="bg-light page-section" id="team">
           <div className="container">
             <div className="row">

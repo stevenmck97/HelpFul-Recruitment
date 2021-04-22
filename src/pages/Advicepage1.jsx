@@ -4,6 +4,7 @@ import React from 'react';
 // import Portfolio from './components/Portfolio'
 import '../App.css';
 import '../assets/css/bootstrap.min.css'
+import '../App'
 import Card from 'react-bootstrap/Card'
 import CardDeck from 'react-bootstrap/CardDeck'
 
