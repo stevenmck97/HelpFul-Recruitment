@@ -1,6 +1,4 @@
 import React from 'react';
-// import logo from './logo.svg';
-// import Portfolio from '../components/Portfolio'
 import '../App.css';
 import '../assets/css/bootstrap.min.css'
 import Card from 'react-bootstrap/Card'
