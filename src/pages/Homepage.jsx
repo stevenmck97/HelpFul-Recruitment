@@ -97,7 +97,7 @@ const Homepage = () => {
             </div>
             <CardDeck>
               <Card>
-                <Link to = "CovidAdvicePage">
+                <Link to = "AccountancyPage">
                 <Card.Img variant="top" src="https://wallpaperaccess.com/full/1453916.jpg" />
                 <Card.Body>
                   <Card.Title>Accountancy</Card.Title>
@@ -105,7 +105,7 @@ const Homepage = () => {
                 </Link>
               </Card>
               <Card>
-              <Link to = "CovidAdvicePage">
+              <Link to = "PublicSectorPage">
                 <Card.Img variant="top" src="https://www.hrmagazine.co.uk/media/fhjgrhus/article-images-2f107217-2fpublic-sector.jpg?anchor=center&mode=crop&width=1002&height=564&bgcolor=White&rnd=132555437236770000" />
                 <Card.Body>
                   <Card.Title>Public Sector</Card.Title>
@@ -113,7 +113,7 @@ const Homepage = () => {
                 </Link>
               </Card>
               <Card>
-              <Link to = "CovidAdvicePage">
+              <Link to = "FinancialServicesPage">
                 <Card.Img variant="top" src="https://www.nttdata.com/au/en/-/media/nttdataapac/ndau/industries/banking-and-financial-services/banking-and-financial-services-header-2732x1536.jpg" />
                 <Card.Body>
                   <Card.Title>Financial Services</Card.Title>
@@ -123,7 +123,7 @@ const Homepage = () => {
             </CardDeck>
             <CardDeck>
               <Card>
-              <Link to = "CovidAdvicePage">
+              <Link to = "EngineeringPage">
                 <Card.Img variant="top" src="https://d3jh33bzyw1wep.cloudfront.net/s3/W1siZiIsIjIwMTkvMTEvMjEvMTIvMDYvMjcvMzIvc2h1dHRlcnN0b2NrXzE0OTg3NDI1MTkuanBnIl0sWyJwIiwidGh1bWIiLCI4MDB4NDUwIyJdXQ" />
                 <Card.Body>
                   <Card.Title>Engineering</Card.Title>
@@ -131,7 +131,7 @@ const Homepage = () => {
                 </Link>
               </Card>
               <Card>
-              <Link to = "CovidAdvicePage">
+              <Link to = "ManufacturingPage">
                 <Card.Img variant="top" src="https://www.jpmorgan.com/content/dam/jpm/commercial-banking/insights/market-and-economy/callout-highs-lows-of-manufacturings-recovery.jpg" />
                 <Card.Body>
                   <Card.Title>Manufacturing</Card.Title>
@@ -139,7 +139,7 @@ const Homepage = () => {
                 </Link>
               </Card>
               <Card>
-              <Link to = "CovidAdvicePage">
+              <Link to = "QualityLabPage">
                 <Card.Img variant="top" src="https://www.pharmaceutical-technology.com/wp-content/uploads/sites/10/2020/10/Feature-image-top-ten-pharma-companies-in-2020.jpg" />
                 <Card.Body>
                   <Card.Title>Quality and Laboratory</Card.Title>
@@ -149,7 +149,7 @@ const Homepage = () => {
             </CardDeck>
             <CardDeck>
               <Card>
-              <Link to = "CovidAdvicePage">
+              <Link to = "SupplyChainPage">
                 <Card.Img variant="top" src="https://miuc.org/wp-content/uploads/2019/11/Supply-Chain-Management.jpg" />
                 <Card.Body>
                   <Card.Title>Supply Chain</Card.Title>
@@ -157,7 +157,7 @@ const Homepage = () => {
                 </Link>
               </Card>
               <Card>
-              <Link to = "CovidAdvicePage">
+              <Link to = "HumanResourcesPage">
                 <Card.Img variant="top" src="https://cdn.lynda.com/course/704123/704123-637491210983328614-16x9.jpg" />
                 <Card.Body>
                   <Card.Title>Human Resources</Card.Title>
@@ -165,7 +165,7 @@ const Homepage = () => {
                 </Link>
               </Card>
               <Card>
-              <Link to = "CovidAdvicePage">
+              <Link to = "ITPage">
                 <Card.Img variant="top" src="https://www.freestudy.com/wp-content/uploads/2019/08/Best-Free-Online-Information-Technology-Courses.jpg" />
                 <Card.Body>
                   <Card.Title>IT</Card.Title>
