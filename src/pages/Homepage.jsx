@@ -42,7 +42,7 @@ const Homepage = () => {
           <div className="container">
             <div className="intro-text">
               <div className="intro-lead-in">Welcome To Helpful Recruitment!</div>
-              <div className="intro-heading text-uppercase">This sucks!</div>
+              <div className="intro-heading text-uppercase">Placeholder</div>
               <a className="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">About Us</a>
             </div>
           </div>
