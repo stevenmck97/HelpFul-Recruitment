@@ -19,6 +19,7 @@ import PublicSectorPage from './pages/Publicsectorpage'
 import QualityLabPage from './pages/Qualitylabpage'
 import SupplyChainPage from './pages/Supplychainpage'
 
+import LiveChatApp from './pages/LiveChatPage'
 import SiteHeader from './components/Siteheader'
 
 
@@ -30,6 +31,7 @@ function App() {
     <SiteHeader/>
     <Switch> 
       <Route exact path = "/" component={Homepage}/>
+      <Route exact path = "/LiveChat" component={LiveChatApp}/>
       <Route exact path = "/CovidAdvicePage" component={CovidAdvicePage}/>   
       <Route exact path = "/FinanceAdvicePage" component={FinanceAdvicePage}/> 
       <Route exact path = "/ContractingAdvicePage" component={ContractingAdvicePage}/>

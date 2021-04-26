@@ -29,7 +29,7 @@ return (
               <Link className="nav-link js-scroll-trigger" to="/#advice">Advice & News</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link js-scroll-trigger" href="#team">Advice and News</Link>
+              <Link className="nav-link js-scroll-trigger" to="/LiveChat">Live Chat</Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link js-scroll-trigger" href="#contact">Contact</Link>

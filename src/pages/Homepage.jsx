@@ -8,36 +8,7 @@ import {Link} from 'react-router-dom'
 const Homepage = () => { 
     return(
         <div className="App">
-        {/* <nav className="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-          <div className="container">
-            <a className="navbar-brand js-scroll-trigger" href="#page-top">Helpful Recruitment</a>
-            <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-              Menu
-          <i className="fa fa-bars"></i>
-            </button>
-            <div className="collapse navbar-collapse" id="navbarResponsive">
-              <ul className="navbar-nav text-uppercase ml-auto">
-                <li className="nav-item">
-                  <a className="nav-link js-scroll-trigger" href="#services">About</a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link js-scroll-trigger" href="#portfolio">Career Sectors</a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link js-scroll-trigger" href="#about">Jobseekers</a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link js-scroll-trigger" href="#team">Advice and News</a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link js-scroll-trigger" href="#contact">Contact</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav> */}
-  
-  
+   
         <header className="masthead">
           <div className="container">
             <div className="intro-text">
@@ -79,8 +50,8 @@ const Homepage = () => {
                   <i className="fa fa-circle fa-stack-2x text-primary"></i>
                   <i className="fa fa-lock fa-stack-1x fa-inverse"></i>
                 </span>
-                <h4 className="service-heading">Forum</h4>
-                <p className="text-muted">Feel free to join our discussion forum and converse with other users about anything recruitment related!</p>
+                <h4 className="service-heading">LiveChat</h4>
+                <p className="text-muted">Feel free to join our LiveChat and converse with other users about anything recruitment related!</p>
               </div>
             </div>
           </div>
@@ -384,9 +355,9 @@ const Homepage = () => {
           <div className="container">
             <div className="row align-items-center">
               <div className="col-md-4">
-                <span className="copyright">Copyright &copy; Your Website 2019</span>
+                <span className="copyright">Developed by Steven McKeown</span>
               </div>
-              <div className="col-md-4">
+              {/* <div className="col-md-4">
                 <ul className="list-inline social-buttons">
                   <li className="list-inline-item">
                     <a href="#something">
@@ -404,15 +375,15 @@ const Homepage = () => {
                     </a>
                   </li>
                 </ul>
-              </div>
+              </div> */}
               <div className="col-md-4">
                 <ul className="list-inline quicklinks">
                   <li className="list-inline-item">
-                    <a href="#something">Privacy Policy</a>
+                    <a href="#something">Disclaimer</a>
                   </li>
-                  <li className="list-inline-item">
+                  {/* <li className="list-inline-item">
                     <a href="#something">Terms of Use</a>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
