@@ -6,18 +6,18 @@ import '../assets/css/bootstrap.min.css'
 // import Card from 'react-bootstrap/Card'
 // import CardDeck from 'react-bootstrap/CardDeck'
 import {HashLink as Link} from 'react-router-hash-link'
+import Navbar from 'react-bootstrap/Navbar'
+
 
 const SiteHeader = () => { 
 return (
-
+  
+  <Navbar bg="light" expand="lg">
     <nav className="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div className="container">
         <Link className="navbar-brand js-scroll-trigger" to="/">Helpful Recruitment</Link>
-        <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          Menu
-      <i className="fa fa-bars"></i>
-        </button>
-        <div className="collapse navbar-collapse" id="navbarResponsive">
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
           <ul className="navbar-nav text-uppercase ml-auto">
             <li className="nav-item">
               <Link className="nav-link js-scroll-trigger" to="/#about">About</Link>
@@ -35,9 +35,11 @@ return (
               <Link className="nav-link js-scroll-trigger" href="#contact">Contact</Link>
             </li>
           </ul>
-        </div>
+          </Navbar.Collapse>
       </div>
     </nav>
+    </Navbar>
+    
 
     )
 }
