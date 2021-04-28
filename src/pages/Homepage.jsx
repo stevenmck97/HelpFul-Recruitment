@@ -13,7 +13,11 @@ const Homepage = () => {
           <div className="container">
             <div className="intro-text">
               <div className="intro-lead-in">Welcome To Helpful Recruitment!</div>
-              <div className="intro-heading text-uppercase">Placeholder</div>
+              {/* <div className="intro-heading text-uppercase">Placeholder</div> */}
+              <br></br>
+              <br></br>
+              <br></br>
+              <br></br>
               <a className="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#about">About Us</a>
             </div>
           </div>

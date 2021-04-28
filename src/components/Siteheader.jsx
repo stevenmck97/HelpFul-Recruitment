@@ -31,9 +31,9 @@ return (
             <li className="nav-item">
               <Link className="nav-link js-scroll-trigger" to="/LiveChat">Live Chat</Link>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <Link className="nav-link js-scroll-trigger" href="#contact">Contact</Link>
-            </li>
+            </li> */}
           </ul>
           </Navbar.Collapse>
       </div>
