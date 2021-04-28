@@ -25,10 +25,10 @@ firebase.initializeApp({
 
 function LiveChatApp() {
   const { user } = useAuthState(firebase.auth());
-
   const signInWithGoogle = async () => {
     // Retrieve Google provider object
     const provider = new firebase.auth.GoogleAuthProvider();
+    
     // Set language to the default browser preference
     firebase.auth().useDeviceLanguage();
     // Start sign in process
@@ -67,12 +67,31 @@ function LiveChatApp() {
           <p className="mb-8 text-lg text-center">
             Chat with other jobseekers in Ireland!
           </p>
+
           <button
             onClick={signInWithGoogle}
             className="sign-in"
           >
             Sign in with Google
           </button>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          
         </div>
       </div>
     );

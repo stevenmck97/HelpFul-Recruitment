@@ -13,7 +13,11 @@ const FinancialServicesPage = () => {
           <div className="col-lg-12 text-left">
             <h2 className="section-heading text-uppercase text-center">Financial Services</h2>
             <h3 className="section-subheading text-center">As we enter 2021, banks, credit unions and other financial organisations must rethink the definition of 'digital banking,' with the application of data analytics, technology, innovation and people that will transform customer experiences.</h3>
-            <p></p>
+            <h3 className="text-center">Overview</h3>
+            <p>When the pandemic hit, most financial institutions entered a crisis mode of building digital capabilities that allowed consumers to bank without branches. As we enter 2021, banks, credit unions and other financial organisations must rethink the definition of ‘digital banking,’ with the application of data analytics, technology, innovation and people that will transform customer experiences.</p>
+            <p>In a recent survey from the Association of Compliance Officers of Ireland (ACOI), 64% of respondents believe that firms in the financial services sector will recruit in 2021, while more than half say they have not had to implement pay cuts and are not expecting to experience any in the near future.</p>
+            <p>With so many businesses and consumers relying on online transactions, the rise of financial technology has accelerated since the pandemic began. As remote operations stay in place for many companies and consumers adapt to—and embrace—technology to simplify their financial transactions, the growth in fintech is a trend that can be expected to continue. 2021 trends reveal the undeniable link between recovering from COVID-19’s impact and transforming financial service operations to power success in the years ahead.</p>
+             <br></br>
             <Table striped bordered hover>
               <thead>
               <h3>Matrix Recruitment</h3>

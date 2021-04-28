@@ -63,7 +63,7 @@ const Homepage = () => {
             <div className="row">
               <div className="col-lg-12 text-center">
                 <h2 className="section-heading text-uppercase">Career Sectors</h2>
-                <h3 className="section-subheading text-muted">Below is a list of career sectors which we provide information on.</h3>
+                <h3 className="section-subheading text-muted">Below is a list of career sectors which we provide information and job listings on.</h3>
               </div>
             </div>
             <CardDeck>

@@ -13,7 +13,11 @@ const ManufacturingPage = () => {
           <div className="col-lg-12 text-left">
             <h2 className="section-heading text-uppercase text-center">Manufacturing</h2>
             <h3 className="section-subheading text-center">With all 10 of the top 10 global pharmaceutical companies now based in Ireland, they are all competing intensely for highly experienced and skilled staff. As such, salaries and benefits on offer will reflect this as employers race to find and keep high calibre employees.</h3>
-            <p></p>
+            <h3 className="text-center">Overview</h3>
+            <p>In January 2020, the global manufacturing sector expanded at its fastest pace in nine months. Business optimism was at its highest level in more than a year. By May, the world had become a very different place. The COVID-19 pandemic caused turmoil across the sector, with operations being shut down across the globe. Manufacturers are at a continued risk of disruption, with ongoing volatility in costs, government policies, and the impacts of the pandemic. Amid the uncertainty, however, the Irish manufacturing sector has remained highly resilient.</p>
+            <p>Salaries in the Manufacturing sector are likely to see relatively small increases in 2021, mainly due to the competitive global trading conditions and the uncertainty of Brexit. The growing emphasis and focus on automating processes and embracing Lean Manufacturing means that those with the right skills, experience and qualifications are highly sought after at the moment.</p>
+            
+            <br></br>
             <Table striped bordered hover>
               <thead>
               <h3>Matrix Recruitment</h3>

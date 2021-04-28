@@ -13,7 +13,11 @@ const SupplyChainPage = () => {
           <div className="col-lg-12 text-left">
             <h2 className="section-heading text-uppercase text-center">Supply Chain</h2>
             <h3 className="section-subheading text-center">With a current skills gap being faced by the industry, management and business leaders need to drive change through effective leadership, increased employee engagement and hands-on solutions to employee retention.</h3>
-            <p></p>
+            <h3 className="text-center">Overview</h3>
+            <p>Much of the discussion around the impact of Brexit this past year has focused on Irish exporters and the difficulties they will face as a result of new tariffs, delays at ports and build-up of stock and storage. With a current skills gap being faced by the industry, management and business leaders need to drive change through effective leadership, increased employee engagement and hands-on solutions to employee retention.</p>
+            <p>Some key trends predicted for the supply chain industry in 2021 include adopting big data, AI, sustainability, and omnichannel marketing. They are trends that go to show the vital role of technology in supply chain management. The use of such technology has grown beyond stock taking, order, and delivery. It has grown into other aspects like security and risk management, process automation, and customer service.</p>
+            <p>The environmental and social impact of the Supply Chain sector in Ireland is also becoming as critical as its effective management. Unsurprisingly, many Irish firms are taking steps to reduce carbon emissions in their supply and logistic chains, with the added benefit of it impacting the bottom line.</p>
+            <br></br>
             <Table striped bordered hover>
               <thead>
               <h3>Matrix Recruitment</h3>

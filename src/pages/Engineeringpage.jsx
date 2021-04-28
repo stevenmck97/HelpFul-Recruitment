@@ -13,7 +13,10 @@ const EngineeringPage = () => {
           <div className="col-lg-12 text-left">
             <h2 className="section-heading text-uppercase text-center">Engineering</h2>
             <h3 className="section-subheading text-center">The growing emphasis on automating processes and embracing Lean Manufacturing means that Engineers with the right skills, experience, and qualifications are in high demand in the market at present.</h3>
-            <p></p>
+            <h3 className="text-center">Overview</h3>
+            <p>In 2021, we expect to see a continued demand for Engineering professionals in Ireland, with an increased focus on sustainability as companies focus more and more on energy-related projects. The growing emphasis on automating processes and embracing Lean Manufacturing means that Engineers with the right skills, experience, and qualifications are in high demand in the market at present.</p>
+            <p>Throughout 2020, we identified stark differences in salary ranges and packages offered within different industries such as Pharmaceutical, Medical Devices and Food. These salary ranges vary again even further according to the location. Dublin still triumphs with the highest salaries available but with the cost of living and availability of housing being so challenging, many candidates are willing to take a slightly lower salary for a better way of living away from Dublin. Counties that are benefiting from this are Galway, Mayo, Sligo, Westmeath, Limerick, Cork, Waterford, Wexford and Tipperary.</p>
+            <br></br>
             <Table striped bordered hover>
               <thead>
               <h3>Matrix Recruitment</h3>

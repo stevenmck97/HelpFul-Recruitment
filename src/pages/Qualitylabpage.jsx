@@ -13,7 +13,10 @@ const QualityLabPage = () => {
           <div className="col-lg-12 text-left">
             <h2 className="section-heading text-uppercase text-center">Quality & Laboratory</h2>
             <h3 className="section-subheading text-center">COVID-19 has affected and will continue to affect, the Pharmaceutical industry in Ireland in a number of ways throughout 2021. One such change will be encouraging more collaboration between organisations for the greater good.</h3>
-            <p></p>
+            <h3 className="text-center">Overview</h3>
+            <p>Throughout 2020, we have seen significant growth in this sector mainly due to company expansions, investments, and the ever-evolving COVID-19 vaccine journey.  COVID-19 has affected and will continue to affect, the Pharmaceutical industry in Ireland in a number of ways throughout 2021. One such change will be encouraging more collaboration between organisations for the greater good. Cross-industry and cross-enterprise collaboration in areas such as research and development is highly common,  as we all tackle a global pandemic. This will result in candidates having to be open to contract work as they may be required to work on projects continuously.</p>
+            <p>This year, we have seen an increase in demand for experienced Quality Engineers and Qualified Persons across the country with a focus on the Midlands and West of Ireland. Salaries and benefit packages are steadily increasing across the board as the demand for high calibre candidates intensifies. Many candidates are choosing to leave Dublin due to the cost of living and availability of housing. Companies outside of the capital have recognised this trend and are increasing their packages in order to attract this sought after talent.</p>
+            <br></br>
             <Table striped bordered hover>
               <thead>
               <h3>Matrix Recruitment</h3>
