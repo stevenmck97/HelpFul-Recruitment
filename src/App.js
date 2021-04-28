@@ -21,6 +21,7 @@ import SupplyChainPage from './pages/Supplychainpage'
 
 import LiveChatApp from './pages/LiveChatPage'
 import SiteHeader from './components/Siteheader'
+import SiteFooter from './components/Sitefooter'
 
 
 
@@ -45,6 +46,7 @@ function App() {
       <Route exact path = "/QualityLabPage" component={QualityLabPage}/>
       <Route exact path = "/SupplyChainPage" component={SupplyChainPage}/>
     </Switch>
+    <SiteFooter/>
     </BrowserRouter>
   
   )
