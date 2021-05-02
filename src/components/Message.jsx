@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import '../assets/css/livechat.css'
 // import { formatRelative } from 'date-fns';
 
@@ -49,15 +48,6 @@ const Message = ({
       </div>
     </div>
   );
-};
-
-Message.propTypes = {
-  text: PropTypes.string,
-  createdAt: PropTypes.shape({
-    seconds: PropTypes.number,
-  }),
-  displayName: PropTypes.string,
-  photoURL: PropTypes.string,
 };
 
 export default Message;

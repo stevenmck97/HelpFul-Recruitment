@@ -1,5 +1,4 @@
 import React, { useEffect, useState, useRef } from 'react';
-import PropTypes from 'prop-types';
 import firebase from 'firebase/app';
 import { useFirestoreQuery } from '../hooks';
 // Components
@@ -102,12 +101,5 @@ const Channel = ({ user = null }) => {
   );
 };
 
-Channel.propTypes = {
-  user: PropTypes.shape({
-    uid: PropTypes.string,
-    displayName: PropTypes.string,
-    photoURL: PropTypes.string,
-  }),
-};
 
 export default Channel;
