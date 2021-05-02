@@ -4,6 +4,8 @@ import '../assets/css/bootstrap.min.css'
 import {HashLink as Link} from 'react-router-hash-link'
 import Navbar from 'react-bootstrap/Navbar'
 
+//Component contains navbar which collapses into a menu when the screen shrinks. 
+//Uses HashLink method to allow routing to specific page elements
 
 const SiteHeader = () => { 
 return (

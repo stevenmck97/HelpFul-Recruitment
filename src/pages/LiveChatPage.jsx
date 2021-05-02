@@ -11,7 +11,7 @@ import { useAuthState } from '../hooks';
 // Components
 import Channel from '../components/Channel.jsx';
 
-
+//Contains firebase configuration and the LiveChatApp run function. Contains sign in and sign out buttons. The Live Chat box is also rendered in this page.
 
 firebase.initializeApp({
   apiKey: process.env.REACT_APP_FIREBASE_API,

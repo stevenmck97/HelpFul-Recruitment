@@ -5,10 +5,13 @@ import Card from 'react-bootstrap/Card'
 import CardDeck from 'react-bootstrap/CardDeck'
 import {Link} from 'react-router-dom'
 
+//This page contains the landing page. The contents include About, Career Sectors, Advice & News, Recommended videos.
+
 const Homepage = () => { 
     return(
         <div className="App">
-   
+        
+        {/* header image */}
         <header className="masthead">
           <div className="container">
             <div className="intro-text">
@@ -22,7 +25,7 @@ const Homepage = () => {
           </div>
         </header>
   
-  
+        {/* About section */}
         <section className="page-section" id="about">
           <div className="container">
             <div className="row">
@@ -33,34 +36,22 @@ const Homepage = () => {
             </div>
             <div className="row text-center">
               <div className="col-md-4">
-                <span className="fa-stack fa-4x">
-                  <i className="fa fa-circle fa-stack-2x text-primary"></i>
-                  <i className="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
-                </span>
-                <h4 className="service-heading">Career Sectors</h4>
+                <h4>Career Sectors</h4>
                 <p className="text-muted">We have a number of career sectors which will inform you all you need to know!</p>
               </div>
               <div className="col-md-4">
-                <span className="fa-stack fa-4x">
-                  <i className="fa fa-circle fa-stack-2x text-primary"></i>
-                  <i className="fa fa-laptop fa-stack-1x fa-inverse"></i>
-                </span>
-                <h4 className="service-heading">Advice and News</h4>
+                <h4>Advice and News</h4>
                 <p className="text-muted">Keep up to date with the latest developments in the Recruitment industry with our frequent updates with News and Advice!</p>
               </div>
               <div className="col-md-4">
-                <span className="fa-stack fa-4x">
-                  <i className="fa fa-circle fa-stack-2x text-primary"></i>
-                  <i className="fa fa-lock fa-stack-1x fa-inverse"></i>
-                </span>
-                <h4 className="service-heading">LiveChat</h4>
+                <h4>LiveChat</h4>
                 <p className="text-muted">Feel free to join our LiveChat and converse with other users about anything recruitment related!</p>
               </div>
             </div>
           </div>
         </section>
   
-  
+        {/* Career Sector section with clickable cards which link to individual pages*/}
         <section className="page-section" id="careers" style={{ backgroundColor: "#252628" }}>
           <div className="container">
             <div className="row">
@@ -150,6 +141,7 @@ const Homepage = () => {
           </div>
         </section>  
         
+        {/* Advice section with clickable cards which link to individual pages*/}
          <section className="page-section" id="advice" >
           <div className="container">
             <div className="row">
@@ -189,6 +181,7 @@ const Homepage = () => {
           </div>
         </section>
 
+        {/* Recommended Videos */}
         <section className="page-section" style={{ backgroundColor: "#252628" }}> 
           <div className="container">
             <div className="row">
