@@ -62,7 +62,7 @@ function LiveChatApp() {
 
           <button
             onClick={signInWithGoogle}
-            className="sign-in"
+            className="btn-primary"
           >
             Sign in with Google
           </button>
@@ -96,7 +96,7 @@ function LiveChatApp() {
           {user ? (
             <button
               onClick={signOut}
-              className="sign-out"
+              className="btn-primary"
             >
               Sign out
             </button>

@@ -8,7 +8,7 @@ import Button from 'react-bootstrap/Button'
 const ManufacturingPage = () => {
   return (
     <section className="page-section">
-      <div className="container" style={{ backgroundColor: "#242424" }}>
+      <div className="container" style={{ backgroundColor: "#252628" }}>
         <div className="row">
           <div className="col-lg-12 text-left">
             <h2 className="section-heading text-uppercase text-center">Manufacturing</h2>
@@ -18,7 +18,7 @@ const ManufacturingPage = () => {
             <p>Salaries in the Manufacturing sector are likely to see relatively small increases in 2021, mainly due to the competitive global trading conditions and the uncertainty of Brexit. The growing emphasis and focus on automating processes and embracing Lean Manufacturing means that those with the right skills, experience and qualifications are highly sought after at the moment.</p>
             
             <br></br>
-            <Table striped bordered hover>
+            <Table>
               <thead>
               <h3>Matrix Recruitment</h3>
                 <tr>

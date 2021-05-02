@@ -8,7 +8,7 @@ import Button from 'react-bootstrap/Button'
 const SupplyChainPage = () => {
   return (
     <section className="page-section">
-      <div className="container" style={{ backgroundColor: "#242424" }}>
+      <div className="container" style={{ backgroundColor: "#252628" }}>
         <div className="row">
           <div className="col-lg-12 text-left">
             <h2 className="section-heading text-uppercase text-center">Supply Chain</h2>
@@ -18,7 +18,7 @@ const SupplyChainPage = () => {
             <p>Some key trends predicted for the supply chain industry in 2021 include adopting big data, AI, sustainability, and omnichannel marketing. They are trends that go to show the vital role of technology in supply chain management. The use of such technology has grown beyond stock taking, order, and delivery. It has grown into other aspects like security and risk management, process automation, and customer service.</p>
             <p>The environmental and social impact of the Supply Chain sector in Ireland is also becoming as critical as its effective management. Unsurprisingly, many Irish firms are taking steps to reduce carbon emissions in their supply and logistic chains, with the added benefit of it impacting the bottom line.</p>
             <br></br>
-            <Table striped bordered hover>
+            <Table>
               <thead>
               <h3>Matrix Recruitment</h3>
                 <tr>

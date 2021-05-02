@@ -8,7 +8,7 @@ import Button from 'react-bootstrap/Button'
 const FinancialServicesPage = () => {
   return (
     <section className="page-section">
-      <div className="container" style={{ backgroundColor: "#242424" }}>
+      <div className="container" style={{ backgroundColor: "#252628" }}>
         <div className="row">
           <div className="col-lg-12 text-left">
             <h2 className="section-heading text-uppercase text-center">Financial Services</h2>
@@ -18,7 +18,7 @@ const FinancialServicesPage = () => {
             <p>In a recent survey from the Association of Compliance Officers of Ireland (ACOI), 64% of respondents believe that firms in the financial services sector will recruit in 2021, while more than half say they have not had to implement pay cuts and are not expecting to experience any in the near future.</p>
             <p>With so many businesses and consumers relying on online transactions, the rise of financial technology has accelerated since the pandemic began. As remote operations stay in place for many companies and consumers adapt to—and embrace—technology to simplify their financial transactions, the growth in fintech is a trend that can be expected to continue. 2021 trends reveal the undeniable link between recovering from COVID-19’s impact and transforming financial service operations to power success in the years ahead.</p>
              <br></br>
-            <Table striped bordered hover>
+            <Table>
               <thead>
               <h3>Matrix Recruitment</h3>
                 <tr>

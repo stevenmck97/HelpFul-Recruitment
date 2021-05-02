@@ -9,7 +9,7 @@ return (
           <div className="container">
             <div className="row align-items-center">
               <div className="col-md-4">
-                <span className="copyright">Developed by Steven McKeown</span>
+                <span style={{ color: "white" }}>Developed by Steven McKeown</span>
               </div>
               <div className="col-md-4">
                 <h4>Useful Links</h4>

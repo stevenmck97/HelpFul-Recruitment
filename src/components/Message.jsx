@@ -23,7 +23,7 @@ const Message = ({
   if (!text) return null;
 
   return (
-    <div className="media w-50 mb-3">
+    <div className="media w-50 mb-3" style={{ backgroundColor: "#252628" }}>
       {photoURL ? (
         <img
           src={photoURL}
@@ -33,18 +33,18 @@ const Message = ({
           height={45}
         />
       ) : null}
-      <div className="media-body">
-        <div className="media-body ml-3">
+      <div className="media-body" >
+        <div className="media-body ml-3" >
           {displayName ? (
             <p className="text-small mb-0 text-white">{displayName}</p>
           ) : null}
           {createdAt?.seconds ? (
-            <span className="text-gray-500 text-xs">
+            <span className="text-gray-500 text-xs" >
               {formatDate(new Date(createdAt.seconds * 1000))}
             </span>
           ) : null}
         </div>
-        <p className="bg-light rounded py-2 px-3 mb-2">{text}</p>
+        <p className="rounded py-2 px-3 mb-2" style={{ backgroundColor: "#252828" }}>{text}</p>
       </div>
     </div>
   );

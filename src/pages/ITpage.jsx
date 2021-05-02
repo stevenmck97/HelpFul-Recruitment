@@ -8,7 +8,7 @@ import Button from 'react-bootstrap/Button'
 const ITPage = () => {
   return (
     <section className="page-section">
-      <div className="container" style={{ backgroundColor: "#242424" }}>
+      <div className="container" style={{ backgroundColor: "#252628" }}>
         <div className="row">
           <div className="col-lg-12 text-left">
             <h2 className="section-heading text-uppercase text-center">IT</h2>
@@ -18,7 +18,7 @@ const ITPage = () => {
             <p>This year we expect to see a continued demand for IT candidates in Ireland, ranging from junior to senior level. The IT market has become increasingly candidate-driven, with fears that the growing skills shortage across Europe will impact the speed at which technological developments can be made by organisations. The numbers of professionals migrating to Ireland will continue to remain steady in 2021 and may even see a large increase as Brexit becomes a reality.</p>
             <p>The majority of IT and technology-led organisations in Ireland see AI as posing the biggest skills shortage over the next 12-24 months. We have also seen an increase in demand for experienced Network Engineers and System Administrators across the country. We have seen a high demand for programming languages Python, Java, Javascript and C++.  Salaries and benefit packages are steadily increasing across the board as the demand for high calibre IT candidates intensifies.</p>
             <br></br>
-            <Table striped bordered hover>
+            <Table>
               <thead>
               <h3>Matrix Recruitment</h3>
                 <tr>

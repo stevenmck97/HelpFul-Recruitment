@@ -7,7 +7,7 @@ import '../assets/css/bootstrap.min.css'
 const CovidAdvicePage = () => {
   return (
     <section className="page-section">
-      <div className="container" style={{ backgroundColor: "#242424" }}>
+      <div className="container" style={{ backgroundColor: "#252628" }}>
         <div className="row">
           <div className="col-lg-12 text-left">
             <h2 className="section-heading text-uppercase text-center">COVID and Careers Insight 2021</h2>
