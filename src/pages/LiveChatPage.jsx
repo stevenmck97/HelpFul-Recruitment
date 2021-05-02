@@ -7,19 +7,19 @@ import firebase from 'firebase/app';
 import 'firebase/auth';
 import 'firebase/firestore';
 // Hooks
-import { useAuthState} from '../hooks';
+import { useAuthState } from '../hooks';
 // Components
 import Channel from '../components/Channel.jsx';
 
 
 
 firebase.initializeApp({
-        apiKey: process.env.REACT_APP_FIREBASE_API,
-        authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
-        projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
-        storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
-        messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGE_SENDER,
-        appId: process.env.REACT_APP_FIREBASE_APP_ID
+  apiKey: process.env.REACT_APP_FIREBASE_API,
+  authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
+  projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
+  storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGE_SENDER,
+  appId: process.env.REACT_APP_FIREBASE_APP_ID
 });
 
 
@@ -28,7 +28,7 @@ function LiveChatApp() {
   const signInWithGoogle = async () => {
     // Retrieve Google provider object
     const provider = new firebase.auth.GoogleAuthProvider();
-    
+
     // Set language to the default browser preference
     firebase.auth().useDeviceLanguage();
     // Start sign in process
@@ -48,14 +48,6 @@ function LiveChatApp() {
   };
 
   const renderContent = () => {
-    // if (initializing) {
-    //   return (
-    //     <div>
-    //       <Loader size="lg" />
-    //     </div>
-    //   );
-    // }
-
     if (user) return <Channel user={user} />;
 
     return (
@@ -91,7 +83,7 @@ function LiveChatApp() {
           <br></br>
           <br></br>
           <br></br>
-          
+
         </div>
       </div>
     );
@@ -100,7 +92,6 @@ function LiveChatApp() {
   return (
     <div className="page-section">
       <header>
-        
         <div>
           {user ? (
             <button
@@ -114,7 +105,6 @@ function LiveChatApp() {
       </header>
       <main
         className="container"
-        // style={{backgroundColor: "#242424" }}
       >
         {renderContent()}
       </main>
