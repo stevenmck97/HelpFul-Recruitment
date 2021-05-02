@@ -13,7 +13,6 @@ const Homepage = () => {
           <div className="container">
             <div className="intro-text">
               <div className="intro-lead-in">Welcome To Helpful Recruitment!</div>
-              {/* <div className="intro-heading text-uppercase">Placeholder</div> */}
               <br></br>
               <br></br>
               <br></br>
